@@ -54,11 +54,11 @@ ACTIVITY LABELS
 ===================================================================
 1. MERGES THE TRAINING AND TEST SETS TO CREATE ONE DATASET
 the structure of the merged dataset is as follows:
---
-Variable Name   ||      featuresraw     || subject      ||  activity
---
-Data            ||      xtrainraw       || subtrainraw  ||  ytrainraw
-                ||      ytestraw        || subtestraw   ||  ytestraw
+Variable Name:
+featuresraw+ subject + activity
+Data:
+xtrainraw + subtrainraw + ytrainraw
+ytestraw + subtestraw + ytestraw
 This will create the merged dataset called "./fulldata.txt"
 
 
